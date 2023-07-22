@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
-      "titles": [ "Software Developer" ],
+      "name": "Kyle Cordell",
+      "titles": ["Software Engineer"],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/kylecordell",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com/kcords",
+          "class": "fab fa-github"
         }
       ],
       "image": "myProfile.jpg"
