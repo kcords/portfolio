@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Kyle Cordell. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hi there! 👋",
+      "description": "I'm Kyle Cordell, a software engineer with a background in network engineering and a passion for building innovative and intuitive applications. As an Air Force veteran, I developed a strong work ethic and attention to detail that have been invaluable in my software engineering career. I have built award-winning applications and further honed my full-stack development skills at a rigorous software engineering boot camp. In my role as a software engineer in the freight industry, I delivered scalable and responsive applications using technologies including Node.js, Typescript, and React. I am excited to leverage my experience and expertise to take on new challenges and build cutting-edge applications.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Professional Experience"
       }
     },
     "projects": [
