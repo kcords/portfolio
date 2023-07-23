@@ -20,7 +20,8 @@ class Footer extends Component {
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
-              <div 
+              {/* Language selection will be disabled for now */}
+              <div
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$primaryLanguage,
@@ -36,14 +37,14 @@ class Footer extends Component {
                   id={window.$primaryLanguageIconId}
                 ></span>
               </div>
-              <div 
+              <div
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$secondaryLanguage,
                     window.$primaryLanguageIconId
                   )
                 }
-                style={{ display: "inline" }}
+                style={{ display: "none" }}
               >
                 <span
                   className="iconify language-icon"
