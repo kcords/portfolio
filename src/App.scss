@@ -2,6 +2,8 @@
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$color1: #e9d5a1;
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -25,8 +27,8 @@ html {
 }
 
 .header-icon {
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 450px;
 }
 
 header {
@@ -38,7 +40,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: $color1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -86,7 +88,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: $color1;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
