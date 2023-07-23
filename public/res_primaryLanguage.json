@@ -1,118 +1,84 @@
 {
-    "basic_info": {
-      "description_header": "Hi there! 👋",
-      "description": "I'm Kyle Cordell, a software engineer with a background in network engineering and a passion for building innovative and intuitive applications. As an Air Force veteran, I developed a strong work ethic and attention to detail that have been invaluable in my software engineering career. I have built award-winning applications and further honed my full-stack development skills at a rigorous software engineering boot camp. In my role as a software engineer in the freight industry, I delivered scalable and responsive applications using technologies including Node.js, Typescript, and React. I am excited to leverage my experience and expertise to take on new challenges and build cutting-edge applications.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Professional Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi there! 👋",
+    "description": "I'm Kyle Cordell, a software engineer with a background in network engineering and a passion for building innovative and intuitive applications. As an Air Force veteran, I developed a strong work ethic and attention to detail that have been invaluable in my software engineering career. I have built award-winning applications and further honed my full-stack development skills at a rigorous software engineering boot camp. In my role as a software engineer in the freight industry, I delivered scalable and responsive applications using technologies including Node.js, Typescript, and React. I am excited to leverage my experience and expertise to take on new challenges and build cutting-edge applications.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Professional Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Tip Calculator",
+      "startDate": "2023",
+      "description": "This web application was developed to simplify the process of tipping, making it easy to tip appropriately based on the quality of service received. It also allows you to round your total and keep track of past transactions.",
+      "images": ["images/portfolio/tip-calculator.png"],
+      "url": "https://kcords.github.io/tip-calculator/index.html",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Convoy",
+      "title": "Software Engineer (Full-stack)",
+      "years": "Nov 2021 - Nov 2022",
+      "description": "",
+      "mainTech": [],
+      "technologies": [
+        "Typescript",
+        "Postgres",
+        "GraphQL",
+        "Node.js",
+        "React",
+        "GIT",
+        "AWS",
+        "Kafka",
+        "Terraform",
+        "Jest"
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "company": "Cox Communications",
+      "title": "Network Provisioning Engineer",
+      "years": "Jul 2016 - Aug 2021",
+      "description": "",
+      "mainTech": [],
+      "technologies": [
+        "App Development",
+        "PowerApps",
+        "PowerFx",
+        "Power Automate",
+        "HTML",
+        "CSS",
+        "IPv4",
+        "IPv6",
+        "Epipe",
+        "IPVPN",
+        "BGP"
+      ]
+    },
+    {
+      "company": "US Air Force",
+      "title": "Senior Airman",
+      "years": "Feb 2002 - Feb 2006",
+      "description": "",
+      "mainTech": [],
+      "technologies": []
+    }
+  ]
+}
