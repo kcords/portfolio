@@ -56,6 +56,14 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
+            {work?.description && <p>{work.description}</p>}
+            {work?.bullets && (
+              <ul>
+                {work.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+            )}
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );

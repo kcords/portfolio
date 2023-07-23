@@ -37,7 +37,15 @@
       "company": "Convoy",
       "title": "Software Engineer (Full-stack)",
       "years": "Nov 2021 - Nov 2022",
-      "description": "",
+      "bullets": [
+        "Developed Node.js, Typescript, and React-based fleet maintenance software, leveraging GPS data to streamline scheduling and enhance trailer inspections, reducing time waste by >300%, resulting in significant cost savings through improved efficiency",
+        "Designed and developed a software update optimizing GraphQL API performance by implementing pagination and addressing an n+1 issue utilizing a data loader, achieving >10x improvement in response time while adding process-improving features",
+        "Increased data accuracy and reliability by validating and migrating legacy excel data into production Postgres tables, delivering >3x time savings for operations teams",
+        "Optimized trailer GPS data processing through implementing Kafka event subscribers to ingest GPS sensor data into a new service, improving data analysis and paving the way for future feature implementation",
+        "Coordinated user testing, bug resolution, and additional feature requests resulting in a successful, well-received product launch",
+        "Ensured critical business operations through 24/7 on-call system debugging and swift resolution of customer requests, maintaining system availability and high customer satisfaction",
+        "Refined AGILE sprint processes as team scrum master, resulting in efficient team productivity and collaboration across multiple business disciplines"
+      ],
       "mainTech": [],
       "technologies": [
         "Typescript",
@@ -56,6 +64,11 @@
       "company": "Cox Communications",
       "title": "Network Provisioning Engineer",
       "years": "Jul 2016 - Aug 2021",
+      "bullets": [
+        "Spearheaded engineering of award-winning applications, doubling service delivery speed & standardizing business processes",
+        "Orchestrated a high-impact, multi-state network upgrade, boosting bandwidth >200%, delivering enhanced capacity & reliability",
+        "Programmed network device configurations for new data services, contributing to surpassing annual revenue goal of $1B"
+      ],
       "description": "",
       "mainTech": [],
       "technologies": [
@@ -69,13 +82,18 @@
         "IPv6",
         "Epipe",
         "IPVPN",
-        "BGP"
+        "BGP",
+        "TCP/IP"
       ]
     },
     {
       "company": "US Air Force",
       "title": "Senior Airman",
       "years": "Feb 2002 - Feb 2006",
+      "bullets": [
+        "Modernized radar system through fleet-wide software and component upgrades, improving performance and prolonging lifespan",
+        "Utilized troubleshooting skills to maximize reliability and performance of aircraft radar systems in support of critical missions"
+      ],
       "description": "",
       "mainTech": [],
       "technologies": []
