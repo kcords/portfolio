@@ -13,9 +13,10 @@
     {
       "title": "Tip Calculator",
       "startDate": "2023",
-      "description": "This web application was developed to simplify the process of tipping, making it easy to tip appropriately based on the quality of service received. It also allows you to round your total and keep track of past transactions.",
+      "description": "This web application is designed to simplify the process of tipping, making it easy to tip appropriately based on the quality of service received. It also allows you to round your total and keep track of past transactions.",
       "images": ["images/portfolio/tip-calculator.png"],
       "url": "https://kcords.github.io/tip-calculator/index.html",
+      "repo": "https://github.com/kcords/tip-calculator",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -30,11 +31,38 @@
           "name": "CSS"
         }
       ]
+    },
+    {
+      "title": "Trip Planner",
+      "startDate": "2021",
+      "description": "This web application was built as a proof-of-concept to simplify the process of planning and organizing the details of a vacation.",
+      "images": ["images/portfolio/trip_planner_task.gif"],
+      "url": "",
+      "repo": "https://www.github.com/kcords/trip-planner",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
     }
   ],
   "experience": [
     {
       "company": "Convoy",
+      "industry": "Freight/Startup",
       "title": "Software Engineer (Full-stack)",
       "years": "Nov 2021 - Nov 2022",
       "bullets": [
@@ -46,8 +74,7 @@
         "Ensured critical business operations through 24/7 on-call system debugging and swift resolution of customer requests, maintaining system availability and high customer satisfaction",
         "Refined AGILE sprint processes as team scrum master, resulting in efficient team productivity and collaboration across multiple business disciplines"
       ],
-      "mainTech": [],
-      "technologies": [
+      "skills": [
         "Typescript",
         "Postgres",
         "GraphQL",
@@ -62,6 +89,7 @@
     },
     {
       "company": "Cox Communications",
+      "industry": "Telecommunications",
       "title": "Network Provisioning Engineer",
       "years": "Jul 2016 - Aug 2021",
       "bullets": [
@@ -70,8 +98,7 @@
         "Programmed network device configurations for new data services, contributing to surpassing annual revenue goal of $1B"
       ],
       "description": "",
-      "mainTech": [],
-      "technologies": [
+      "skills": [
         "App Development",
         "PowerApps",
         "PowerFx",
@@ -88,6 +115,7 @@
     },
     {
       "company": "US Air Force",
+      "industry": "Military",
       "title": "Senior Airman",
       "years": "Feb 2002 - Feb 2006",
       "bullets": [
@@ -95,8 +123,15 @@
         "Utilized troubleshooting skills to maximize reliability and performance of aircraft radar systems in support of critical missions"
       ],
       "description": "",
-      "mainTech": [],
-      "technologies": []
+      "skills": [
+        "Electronics",
+        "Avionics",
+        "Radar",
+        "Troubleshooting",
+        "Security",
+        "Quality Assurance",
+        "Legacy Modernization"
+      ]
     }
   ]
 }

@@ -31,15 +31,15 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
-    }, (props, prevProp) => true);
+    const HeaderTitleTypeAnimation = React.memo(
+      () => {
+        return this.titles.join(" | ");
+      },
+      (props, prevProp) => true
+    );
 
     return (
-      <header
-        id="home"
-        style={{ height: window.innerHeight - 100, display: "block" }}
-      >
+      <header id="home" style={{ height: "100dvh", display: "block" }}>
         <a
           href="https://github.com/codefellows/cra-template-react-portfolio"
           target="_blank"
@@ -144,7 +144,7 @@ class Header extends Component {
                 alt="computer"
               />
               <br />
-              <h1 className="mb-0">{name}</h1>
+              <h1 className="title-styles mb-0">{name}</h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
