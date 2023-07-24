@@ -39,10 +39,7 @@ class Header extends Component {
     );
 
     return (
-      <header
-        id="home"
-        style={{ height: window.innerHeight - 100, display: "block" }}
-      >
+      <header id="home" style={{ height: "100dvh", display: "block" }}>
         <a
           href="https://github.com/codefellows/cra-template-react-portfolio"
           target="_blank"
