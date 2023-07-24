@@ -19,49 +19,36 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain-wordmark colored"
         },
         {
           "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "class": "devicon-typescript-plain colored"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain colored"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "React",
+          "class": "devicon-react-plain-wordmark colored"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain-wordmark colored"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "HTML 5",
+          "class": "devicon-html5-plain-wordmark colored"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "CSS 3",
+          "class": "devicon-css3-plain-wordmark colored"
+        },
+        {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain-wordmark colored"
         }
       ]
     }

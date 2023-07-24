@@ -2,6 +2,10 @@
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$color1: #3d8fc6;
+$color2: #dfe6e9;
+$color3: #1F1F1F;
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -25,8 +29,8 @@ html {
 }
 
 .header-icon {
-	height: 150px;
-	width: 150px;
+	height: 400px;
+	width: 550px;
 }
 
 header {
@@ -38,7 +42,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: $color1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -77,16 +81,22 @@ header .nav {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
-	padding: 10px 10px 5px 10px;
+	background-color: transparentize($color2, .2);
+	padding: 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
 }
 
+.skills-tile i {
+	filter: drop-shadow(3px 3px 2px transparentize($color3, .4));
+	font-size: 6.5rem;
+	margin: 5px;
+}
+
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: $color1;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -231,7 +241,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: $color2;
 }
 
 .experience-icon {
@@ -265,6 +275,10 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+.vertical-timeline-element-icon {
+	background-color: $color1;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -353,7 +367,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: $color2;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +403,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: $color3;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +428,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: $color3;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -436,5 +450,5 @@ footer a:focus {
 
 .social-links {
 	margin-top: 10px;
-	font-size: 22px;
+	font-size: 3rem;
 }

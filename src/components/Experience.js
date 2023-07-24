@@ -33,11 +33,10 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className="fas fa-briefcase experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -56,6 +55,14 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
+            {work?.description && <p>{work.description}</p>}
+            {work?.bullets && (
+              <ul>
+                {work.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+            )}
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );
@@ -78,12 +85,11 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
                 color: "#fff",
                 textAlign: "center",
               }}
               icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+                <i className="fas fa-globe-americas mx-auto experience-icon"></i>
               }
             />
           </VerticalTimeline>
