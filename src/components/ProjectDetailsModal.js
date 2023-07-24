@@ -7,11 +7,8 @@ import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
+      var { technologies, images, title, description, url, repo } =
+        this.props.data || {};
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -79,19 +76,29 @@ class ProjectDetailsModal extends Component {
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
-              {url ? (
+              {url && (
                 <a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-href"
                 >
+                  <i className="fas fa-link" style={{ marginLeft: "10px" }}></i>
+                </a>
+              )}
+              {repo && (
+                <a
+                  href={repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
                   <i
-                    className="fas fa-external-link-alt"
+                    className="fab fa-github"
                     style={{ marginLeft: "10px" }}
                   ></i>
                 </a>
-              ) : null}
+              )}
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
