@@ -29,8 +29,8 @@ html {
 }
 
 .header-icon {
-	height: 300px;
-	width: 450px;
+	height: 400px;
+	width: 550px;
 }
 
 header {
@@ -275,6 +275,10 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+.vertical-timeline-element-icon {
+	background-color: $color1;
 }
 
 @media only screen and (max-width: 1170px) {
