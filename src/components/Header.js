@@ -48,8 +48,8 @@ class Header extends Component {
           aria-label="View source on GitHub"
         >
           <svg
-            width="90"
-            height="90"
+            width="45"
+            height="45"
             viewBox="0 0 250 250"
             style={{
               fill: "#151513",
