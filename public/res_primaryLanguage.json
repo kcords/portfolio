@@ -13,7 +13,7 @@
     {
       "title": "Tip Calculator",
       "startDate": "2023",
-      "description": "This web application was developed to simplify the process of tipping, making it easy to tip appropriately based on the quality of service received. It also allows you to round your total and keep track of past transactions.",
+      "description": "This web application is designed to simplify the process of tipping, making it easy to tip appropriately based on the quality of service received. It also allows you to round your total and keep track of past transactions.",
       "images": ["images/portfolio/tip-calculator.png"],
       "url": "https://kcords.github.io/tip-calculator/index.html",
       "technologies": [
@@ -28,6 +28,31 @@
         {
           "class": "devicon-css3-plain",
           "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Trip Planner",
+      "startDate": "2021",
+      "description": "This web application was built as a proof-of-concept to simplify the process of planning and organizing the details of a vacation.",
+      "images": ["images/portfolio/trip_planner_task.gif"],
+      "url": "https://www.github.com/kcords/trip-planner",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         }
       ]
     }
