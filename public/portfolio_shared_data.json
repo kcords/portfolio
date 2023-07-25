@@ -23,6 +23,14 @@
           "class": "devicon-nodejs-plain-wordmark colored"
         },
         {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain-wordmark colored"
+        },
+        {
+          "name": "GraphQL",
+          "class": "devicon-graphql-plain-wordmark colored"
+        },
+        {
           "name": "TypeScript",
           "class": "devicon-typescript-plain colored"
         },
@@ -47,8 +55,20 @@
           "class": "devicon-css3-plain-wordmark colored"
         },
         {
-          "name": "Postgres",
-          "class": "devicon-postgresql-plain-wordmark colored"
+          "name": "Kafka",
+          "class": "devicon-apachekafka-plain-wordmark colored"
+        },
+        {
+          "name": "Terraform",
+          "class": "devicon-terraform-plain-wordmark colored"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain-wordmark colored"
+        },
+        {
+          "name": "GIT",
+          "class": "devicon-git-plain-wordmark colored"
         }
       ]
     }

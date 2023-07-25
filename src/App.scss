@@ -112,7 +112,7 @@ header .nav {
 }
 
 .skills-tile i {
-	filter: drop-shadow(3px 3px 2px transparentize($color3, .4));
+	filter: drop-shadow(0 0 5px transparentize($color3, .5));
 	font-size: 6.5rem;
 	margin: 5px;
 }
