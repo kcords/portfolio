@@ -29,14 +29,15 @@ export default class Contact extends React.Component {
     var sectionName = this.props?.resumeBasicInfo?.section_name?.contact;
 
     return (
-      <Container fluid id="contact" className="p-5">
+      <Container fluid id="contact" className="p-5 mb-5">
         <Form
           noValidate
           validated={this.state.validated}
           onSubmit={this.handleSubmit}
           data-netlify="true"
+          className="pb-5 mb-5"
         >
-          <Row>
+          <Row className="pb-5 mb-5">
             <Col></Col>
             <Col xs={12} md={10} lg={8} xl={6}>
               <Row>
