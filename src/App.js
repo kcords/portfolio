@@ -5,6 +5,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 class App extends Component {
@@ -103,6 +104,7 @@ class App extends Component {
               />
             }
           ></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
