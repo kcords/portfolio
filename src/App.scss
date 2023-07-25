@@ -459,3 +459,17 @@ footer a:focus {
 	margin-top: 10px;
 	font-size: 3rem;
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1dvw;
+  bottom: 12vh;
+}
+
+.socicon {
+  width: 6dvh;
+  height: 6dvh;
+	margin: 0 2rem;
+}

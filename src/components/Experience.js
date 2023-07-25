@@ -41,7 +41,7 @@ class Experience extends Component {
             >
               {`${work.company} ${work?.industry && `(${work.industry})`}`}
             </h4>
-            {work?.description && <p>{work.description}</p>}
+            {work?.summary && <p>{work.summary}</p>}
             {work?.bullets && (
               <ul>
                 {work.bullets.map((bullet) => (
