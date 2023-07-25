@@ -26,6 +26,8 @@ export default class Contact extends React.Component {
   };
 
   render() {
+    var sectionName = this.props?.resumeBasicInfo?.section_name?.contact;
+
     return (
       <Container fluid id="contact" className="p-5">
         <Form
@@ -38,6 +40,9 @@ export default class Contact extends React.Component {
             <Col></Col>
             <Col xs={12} md={10} lg={8} xl={6}>
               <Row>
+                <h1 className="text-center py-5" style={{ color: "black" }}>
+                  <span>{sectionName}</span>
+                </h1>
                 <Form.Text className="fs-5 mb-4">
                   Hi there! Please feel free to send me a message using the form
                   below.

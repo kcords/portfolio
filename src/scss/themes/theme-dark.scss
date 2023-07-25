@@ -7,13 +7,18 @@ body[data-theme="dark"] {
    $color3: #494949;
    $color4: #5b5b5b;
    $color5: #919191;
+   $color6: #ffffff;
 
    .slider-tab {
       background-color: $color1;
    }
 
    .title-styles {
-      color: white;
+      color: $color6;
+   }
+
+   .title-container {
+      color: $color6;
    }
 
    .header-icon {
@@ -34,32 +39,32 @@ body[data-theme="dark"] {
    }
 
    .link-href {
-      color: white;
+      color: $color6;
    }
 
    .project-date {
       background-color: #918e97;
-      color: white;
+      color: $color6;
    }
 
    header {
       background-color: $color3;
       h1 {
-         color: white;
+         color: $color6;
       }
    }
 
    #about {
       background-color: $color4;
       h1 span {
-         color: white;
+         color: $color6;
       }
       .polaroid span {
          background:  $color2;
       }
       .card {
          background: $color2;
-         color: white;
+         color: $color6;
       }
    }
 
@@ -70,13 +75,13 @@ body[data-theme="dark"] {
    #portfolio {
       background: $color4;
       .section-title {
-         color: white !important;
+         color: $color6 !important;
       }
       .foto div {
          background: $color2;
       }
       .project-title-settings {
-         color: white;
+         color: $color6;
       }
    }
 
@@ -84,12 +89,12 @@ body[data-theme="dark"] {
       filter: brightness(80%);
       background: $color4;
       .section-title {
-         color: white !important;
+         color: $color6 !important;
       }
 
       .experience-badge {
          background: $color5 !important;
-         color: white;
+         color: $color6;
       }
 
       .main-badge {
@@ -97,7 +102,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-date {
-         color: white;
+         color: $color6;
       }
 
       .vertical-timeline-element-icon {
@@ -112,10 +117,10 @@ body[data-theme="dark"] {
 
    .modal-inside .modal-content {
       background: $color4;
-      color: white;
+      color: $color6;
    }
 
    .close-icon {
-      color: white;
+      color: $color6;
    }
 }

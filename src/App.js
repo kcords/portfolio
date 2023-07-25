@@ -104,7 +104,12 @@ class App extends Component {
               />
             }
           ></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route
+            path="/contact"
+            element={
+              <Contact resumeBasicInfo={this.state.resumeData.basic_info} />
+            }
+          ></Route>
         </Routes>
         <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}

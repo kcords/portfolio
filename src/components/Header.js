@@ -10,14 +10,25 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
-    this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+    this.state = {
+      checked: false,
+      elementHeight: "100vh",
+      headerClass: "",
+      headerIconClass: ""
+    };
+
+    this.elementRef = React.createRef();
+
+    this.intersectionObserver = new IntersectionObserver(
+      this.handleIntersection,
+      { root: null, rootMargin: "0px", threshold: 1 }
+    );
   }
 
-  onThemeSwitchChange(checked) {
+  onThemeSwitchChange = (checked) => {
     this.setState({ checked });
     this.setTheme();
-  }
+  };
 
   setTheme() {
     var dataThemeAttribute = "data-theme";
@@ -27,10 +38,28 @@ class Header extends Component {
     body.setAttribute(dataThemeAttribute, newTheme);
   }
 
+  handleIntersection = ([header]) => {
+    const isVisible = header.isIntersecting;
+
+    this.setState({
+      elementHeight: isVisible ? "100vh" : "50vh",
+      headerClass: isVisible ? "" : "header-collapse",
+      headerIconClass: isVisible ? "" : "header-icon-collapse",
+    });
+  };
+
+  componentDidMount() {
+    this.intersectionObserver.observe(this.elementRef.current);
+  }
+
+  componentWillUnmount() {
+    this.intersectionObserver.disconnect();
+  }
+
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      this.titles = this.props.sharedData.titles;
     }
 
     const HeaderTitleTypeAnimation = React.memo(
@@ -40,8 +69,10 @@ class Header extends Component {
       (props, prevProp) => true
     );
 
+    const { headerClass, headerIconClass } = this.state;
+
     return (
-      <header>
+      <header className={headerClass} ref={this.elementRef}>
         <Navbar className="navbar p-3" fixed="top">
           <Nav className="fs-3 justify-content-between align-items-stretch flex-row container-fluid">
             <Col className="d-flex justify-content-start gap-4 ps-4">
@@ -107,11 +138,15 @@ class Header extends Component {
             </Col>
           </Nav>
         </Navbar>
-        <div className="row aligner" style={{ height: "100%" }}>
+        <div
+          id="header-hero"
+          className="row aligner"
+          style={{ height: "100%" }}
+        >
           <div className="col-md-12">
             <div>
               <img
-                className="header-icon"
+                className={`header-icon ${headerIconClass}`}
                 src="images/computer_illustration.svg"
                 alt="computer"
               />

@@ -5,8 +5,9 @@
     "section_name": {
       "about": "About me",
       "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Professional Experience"
+      "skills": "Skills & Technologies",
+      "experience": "Professional Experience",
+      "contact": "Get in touch"
     }
   },
   "projects": [
