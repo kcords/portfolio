@@ -33,12 +33,19 @@ html {
 .header-icon {
 	max-height: 400px;
 	max-width: 550px;
+	transition: all .5s ease;
+}
+
+.header-icon-collapse {
+	max-height: 150px;
+	max-width: 275px;
+	transition: all .5s ease;
 }
 
 header {
 	position: relative;
 	height: 100dvh;
-	min-height: 450px;
+	min-height: 400px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -50,6 +57,13 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-bottom: 0;
+	transition: height 1s ease;
+}
+
+.header-collapse {
+		height: 40dvh;
+		transition: height .75s ease;
+		padding-top: 8rem;
 }
 
 .navbar {
