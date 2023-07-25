@@ -21,9 +21,9 @@ body[data-theme="dark"] {
       opacity: 0.8;
    }
 
-.navbar {
-	background-color: transparentize($color3, .4);
-}
+   .navbar {
+      background-color: transparentize($color3, .4);
+   }
 
    .slider-image {
       border: 5px solid $color1;
@@ -50,7 +50,7 @@ body[data-theme="dark"] {
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: $color4;
       h1 span {
          color: white;
       }
@@ -61,6 +61,10 @@ body[data-theme="dark"] {
          background: $color2;
          color: white;
       }
+   }
+
+   #contact {
+      background: $color4;
    }
 
    #portfolio {
