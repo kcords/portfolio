@@ -29,14 +29,20 @@ export default class Contact extends React.Component {
     var sectionName = this.props?.resumeBasicInfo?.section_name?.contact;
 
     return (
-      <Container fluid id="contact" className="p-5">
+      <Container fluid id="contact" className="p-5 mb-5">
         <Form
           noValidate
           validated={this.state.validated}
           onSubmit={this.handleSubmit}
           data-netlify="true"
+          className="pb-5 mb-5"
         >
-          <Row>
+          <input
+            type="hidden"
+            name="form-name"
+            value="portfolio-contact-form"
+          />
+          <Row className="pb-5 mb-5">
             <Col></Col>
             <Col xs={12} md={10} lg={8} xl={6}>
               <Row>
@@ -55,6 +61,7 @@ export default class Contact extends React.Component {
                       <Form.Control
                         type="text"
                         placeholder="Enter name"
+                        name="name"
                         required
                       />
                       <Form.Control.Feedback type="invalid">
@@ -70,6 +77,7 @@ export default class Contact extends React.Component {
                       <Form.Control
                         type="email"
                         placeholder="Enter email"
+                        name="email"
                         required
                       />
                       <Form.Control.Feedback type="invalid">
@@ -87,14 +95,17 @@ export default class Contact extends React.Component {
                         aria-label="Default select example"
                         className="mb-3"
                         controlId="formContactReason"
+                        name="subject"
                         required
                       >
                         <option></option>
-                        <option value="general">General inquiry</option>
-                        <option value="employment">
+                        <option value="General inquiry">General inquiry</option>
+                        <option value="Employment opportunity">
                           Employment opportunity
                         </option>
-                        <option value="contract">Contract work</option>
+                        <option value="Contract work inquiry">
+                          Contract work
+                        </option>
                       </Form.Select>
                       <Form.Control.Feedback type="invalid">
                         Please select a reason for contact
@@ -113,6 +124,7 @@ export default class Contact extends React.Component {
                       placeholder="Type your message here..."
                       className="mb-3"
                       controlId="formMessage"
+                      name="message"
                       required
                     />
                     <Form.Control.Feedback type="invalid">
