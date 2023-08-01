@@ -28,6 +28,7 @@ class Experience extends Component {
             }}
             icon={<i className="fas fa-briefcase experience-icon"></i>}
             key={i}
+            visible={window.innerWidth < 500}
           >
             <h3
               className="vertical-timeline-element-title"
